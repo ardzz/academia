@@ -17,6 +17,22 @@ This theme is based on [Ziro theme](https://github.com/spicetify/spicetify-theme
 ```bash
 git clone https://github.com/ardzz/academia
 ```
-
+3. Copy `academia` folder into [Spicetify theme's folder](https://spicetify.app/docs/development/customization#themes) <br>
+Linux/MacOS
+   ``` bash
+   cp -r academia ~/.config/spicetify/Themes/
+   ```
+   Sorry, I don't know for windows command, because I usually use UNIX-like OS
+4. Applying theme
+   1. Dark Academia theme
+   ```bash
+   spicetify config current_theme academia color_scheme dark-academia 
+   spicetify apply
+   ```
+   2. Light Academia theme
+   ```bash
+   spicetify config current_theme academia color_scheme light-academia
+   spicetify apply 
+   ```
 ## More
-Inspired by the [Zorin GTK theme](https://github.com/ZorinOS/zorin-desktop-themes) and [spot](https://github.com/xou816/spot)
+Follow my Spotify account! 🥹 [click me](https://open.spotify.com/user/7nfzphtr0vrnlvq5jrik6mdjq?si=30fcc35fa51c4dcc)
